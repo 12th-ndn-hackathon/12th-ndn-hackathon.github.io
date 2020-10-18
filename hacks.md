@@ -153,7 +153,7 @@ Write protocol specifications of three sync protocols:
 
 #### **[Pitch Slides]({% asset NDNCERT_deployment_proposal.pdf @path %})**
 
-#### **[Presentation Slides]({% asset Final_Presentation_Deploy_NDNCERT_on_testbed - Siqi Liu.pptx @path %})**
+#### **[Presentation Slides]({% asset Final_Presentation_Deploy_NDNCERT_on_testbed_Siqi_Liu.pptx @path %})**
 
 **Project Lead:**
 - Zhiyi Zhang
