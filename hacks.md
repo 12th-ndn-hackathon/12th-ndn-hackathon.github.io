@@ -153,6 +153,7 @@ Write protocol specifications of three sync protocols:
 
 **Project Lead:**
 - Zhiyi Zhang
+
 **Project Members** 
 - Siqi Liu, Tianyuan Yu, Muhammad Nuzaihan
 
