@@ -39,7 +39,7 @@ Write protocol specifications of three sync protocols:
 
 ## 2. <del>RTCDataChannel Transport for Browsers</del>
 
-#### **[Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
+#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
 
 **Project Lead:**
 - Junxiao Shi
@@ -124,7 +124,7 @@ Write protocol specifications of three sync protocols:
 
 ## 5.  <del>NDNph – NDN-Lite Bridge</del>
 
-#### **[Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
+#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
 
 **Project Lead:**
 - Junxiao Shi
@@ -182,7 +182,7 @@ Write protocol specifications of three sync protocols:
 
 ## 7. YaNFD: Yet Another NDN Forwarder
 
-#### **[Slides]({% asset YaNFD_Yet_Another_NDN_Forwarder_Eric_Newberry_proposal.pdf @path %})**
+#### **[Pitch Slides]({% asset YaNFD_Yet_Another_NDN_Forwarder_Eric_Newberry_proposal.pdf @path %})**
 
 #### **[Presentation Slides]({% asset Final_Presentation_YaNFD_Hackathon_Presentation_Eric_Newberry.pdf @path %})**
 
@@ -210,7 +210,7 @@ Write protocol specifications of three sync protocols:
 
 ## 8. Combat Fake News with screenshot verification
 
-#### **[Slides]({% asset ndn_slapper_proposal.pdf @path %})**
+#### **[Pitch Slides]({% asset ndn_slapper_proposal.pdf @path %})**
 
 #### **[Presentation Slides]({% asset Final_Presentation_ndn_pres_Aditya_Advani.pptx @path %})**
 
@@ -242,7 +242,7 @@ https://medium.com/@aditya_advani/how-to-defeat-fake-news-with-a-screenshot-veri
 
 ## 9. NFD Strategy Plugin System
 
-#### **[Slides]({% asset NFD_strategy_Plugin_proposal.pdf @path %})**
+#### **[Pitch Slides]({% asset NFD_strategy_Plugin_proposal.pdf @path %})**
 
 #### **[Presentation Slides]({% asset Final_Presentation_Strategy_Plugin_Ashlesh_Gawande.pdf @path %})**
 
