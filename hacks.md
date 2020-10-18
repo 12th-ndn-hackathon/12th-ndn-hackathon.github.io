@@ -94,6 +94,8 @@ Write protocol specifications of three sync protocols:
 
 ### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
 
+### **[Presentation Slides]({% asset Final_Presentation__namevis_Junxiao_Shi.pptx @path %})**
+
 **Project Lead:**
 - Junxiao Shi
 
@@ -151,6 +153,8 @@ Write protocol specifications of three sync protocols:
 
 ### **[Pitch Slides]({% asset NDNCERT_deployment_proposal.pdf @path %})**
 
+### **[Presentation Slides]({% asset Final_Presentation_Deploy_NDNCERT_on_testbed - Siqi Liu.pptx @path %})**
+
 **Project Lead:**
 - Zhiyi Zhang
 
@@ -180,6 +184,8 @@ Write protocol specifications of three sync protocols:
 
 ### **[Slides]({% asset YaNFD_Yet_Another_NDN_Forwarder_Eric_Newberry_proposal.pdf @path %})**
 
+### **[Presentation Slides]({% asset Final_Presentation_YaNFD_Hackathon_Presentation_Eric_Newberry.pdf @path %})**
+
 **Project Lead:**
 - Eric Newberry, Xinyu Ma
 
@@ -205,6 +211,8 @@ Write protocol specifications of three sync protocols:
 ## 8. Combat Fake News with screenshot verification
 
 ### **[Slides]({% asset ndn_slapper_proposal.pdf @path %})**
+
+### **[Presentation Slides]({% asset Final_Presentation_ndn_pres_Aditya_Advani.pptx @path %})**
 
 **Project Lead:**
 - Aditya Advani
@@ -235,6 +243,8 @@ https://medium.com/@aditya_advani/how-to-defeat-fake-news-with-a-screenshot-veri
 ## 9. NFD Strategy Plugin System
 
 ### **[Slides]({% asset NFD_strategy_Plugin_proposal.pdf @path %})**
+
+### **[Presentation Slides]({% asset Final_Presentation_Strategy_Plugin_Ashlesh_Gawande.pdf @path %})**
 
 **Project Lead:**
 - Ashlesh Gawande
