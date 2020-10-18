@@ -98,7 +98,7 @@ Write protocol specifications of three sync protocols:
 - Junxiao Shi
 
 **Project Members** 
-- Sanjeev (FIU), Proyash (FIU)
+- Sanjeev (FIU), Proyash (FIU), Zhe Qu
 
 **Prefered Team Size:**
 - 3
