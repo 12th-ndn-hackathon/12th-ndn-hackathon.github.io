@@ -21,6 +21,33 @@ We encourage projects that:
 - Proposals should be submitted via [web form](https://forms.gle/2unDD5C5zVDUeFVq5).
 - Click [here](http://10th-ndn-hackathon.named-data.net/cfh.html) for more details.
 
+## Hackathon Awards 
+
+- **Best Idea Hack**
+
+	*NFD Strategy Plugin System*
+
+  Ashlesh Gawande, Saurab Dulal, Muktadir Chowdhury
+
+  <br/>
+
+- **Most Promising Hack**
+
+  *Passive Name Visualizer*
+
+  Junxiao Shi, Sanjeev Kaushik Ramani, Proyash Podder, Zhe Qu
+
+  <br/>
+
+- **Most practical hack**
+
+  *Deploy NDNCERT v0.3 on Testbed*
+
+   Zhiyi Zhang, Siqi Liu, Tianyuan Yu, Muhammad Nuzaihan
+
+   <br/>
+
+
 ## News
 - October 17, Hackathon started, and project finalized 
 - October 16, Hackathon project proposals updated 
