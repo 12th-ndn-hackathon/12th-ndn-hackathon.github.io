@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
 
-url: http://10th-ndn-hackathon.named-data.net
+url: http://11th-ndn-hackathon.named-data.net
 baseurl:
 
 plugins:
@@ -15,19 +15,19 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: Wednesday, Oct 14th, 2020 
+          date: TBD
         - name: Acceptance notification
-          date: Friday, Oct 16th, 2020
+          date: TBD
 
 # Configuration for permalink
 permalink: /:page.html
 
 # Configuration for site
-title: 10th Named Data Networking (NDN) Hackathon (Virtual)
-short_title: 10th NDN Hackathon 
-description: Oct 17-18 , 2020
-author: 10th NDN Hackathon Organizing Committee
-email: 10th-ndn-hackathon@named-data.net
+title: 11th Named Data Networking (NDN) Hackathon (Virtual)
+short_title: 11th NDN Hackathon 
+description: TBD # Oct 17-18 , 2020
+author: 11th NDN Hackathon Organizing Committee
+email: 11th-ndn-hackathon@named-data.net
 
 # Configuration for blog
 lang: en
@@ -67,7 +67,7 @@ twitter:
     widget_id: 698294519054278656
 
 github:
-   username: 10th-ndn-hackathon
+   username: 11th-ndn-hackathon
    count: 10000
 
 assets:
