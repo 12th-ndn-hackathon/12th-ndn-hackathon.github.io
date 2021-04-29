@@ -3,7 +3,7 @@ layout: page
 title: Welcome to the 11th NDN Hackathon
 ---
 
-We are hosting a two-day virtual NDN Hackathon (dates TBD). The event is open and FREE to participate in and winners will receive exciting FREE prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
+We are hosting a two-day virtual NDN Hackathon (May 22-23, 2021). The event is open and FREE to participate in and winners will receive exciting FREE prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
 
 We particularly encourage projects that:
 

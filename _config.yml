@@ -15,17 +15,17 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: TBD
+          date: Wednesday, May 19, 2021 (tentative)
         - name: Acceptance notification
-          date: TBD
+          date: Friday, May 21, 2021 (tentative)
 
 # Configuration for permalink
 permalink: /:page.html
 
 # Configuration for site
 title: 11th Named Data Networking (NDN) Hackathon (Virtual)
-short_title: 11th NDN Hackathon 
-description: TBD # Oct 17-18 , 2020
+short_title: 11th NDN Hackathon
+description: May 22-23, 2021
 author: 11th NDN Hackathon Organizing Committee
 email: 11th-ndn-hackathon@named-data.net
 
@@ -41,14 +41,12 @@ navbar_list:
     link: /
   - name: Committees
     link: /committees.html
-  - name: Terms
-    link: /terms.html
-  - name: <b>HACKS</b>
-    link: /hacks.html
+#  - name: <b>HACKS</b>
+#    link: /hacks.html
   - name: Program
     link: /program.html
-  - name: Judging
-    link: /judging.html
+#  - name: Judging
+#    link: /judging.html
 
 asides:
     github: true
