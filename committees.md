@@ -5,11 +5,11 @@ title: Committees
 
 ## Organizing Committee
 
-- [ Philipp Moll ](mailto:phmoll@cs.ucla.edu) (University of California, Los Angeles)
-- [ Eric Newberry ](mailto:enewberry@cs.ucla.edu) (University of California, Los Angeles)
-- TBD (University of Arizona)
-- TBD (Florida International University)
-- TBD (University of Memphis)
+- [Philipp Moll](mailto:phmoll@cs.ucla.edu) (University of California, Los Angeles)
+- [Eric Newberry](mailto:enewberry@cs.ucla.edu) (University of California, Los Angeles)
+- [Ashiq Rahman](mailto:marahman@email.arizona.edu) (University of Arizona)
+- [Proyash Podder](mailto:ppodder@fiu.edu) (Florida International University)
+- [Saurab Dulal](mailto:sdulal@memphis.edu) (University of Memphis)
 
 ## Judging Committee
 - TBD

@@ -15,9 +15,9 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: Wednesday, May 19, 2021 (tentative)
+          date: Tuesday, May 18, 2021 (tentative)
         - name: Acceptance notification
-          date: Friday, May 21, 2021 (tentative)
+          date: Thursday, May 20, 2021 (tentative)
 
 # Configuration for permalink
 permalink: /:page.html
@@ -25,9 +25,9 @@ permalink: /:page.html
 # Configuration for site
 title: 11th Named Data Networking (NDN) Hackathon (Virtual)
 short_title: 11th NDN Hackathon
-description: May 22-23, 2021
+description: May 21-23, 2021
 author: 11th NDN Hackathon Organizing Committee
-email: 11th-ndn-hackathon@named-data.net
+#email: 11th-ndn-hackathon@named-data.net
 
 # Configuration for blog
 lang: en
