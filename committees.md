@@ -10,6 +10,7 @@ title: Committees
 - [Ashiq Rahman](mailto:marahman@email.arizona.edu) (University of Arizona)
 - [Proyash Podder](mailto:ppodder@fiu.edu) (Florida International University)
 - [Saurab Dulal](mailto:sdulal@memphis.edu) (University of Memphis)
+- [Justin Presley](jcpresley42@tntech.edu) (Tennessee Tech)
 
 ## Judging Committee
 - TBD
