@@ -15,9 +15,9 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: Tuesday, May 18, 2021 (tentative)
+          date: Tuesday, May 18, 2021
         - name: Acceptance notification
-          date: Thursday, May 20, 2021 (tentative)
+          date: Thursday, May 20, 2021
 
 # Configuration for permalink
 permalink: /:page.html
