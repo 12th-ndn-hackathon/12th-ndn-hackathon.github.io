@@ -41,6 +41,8 @@ navbar_list:
     link: /
   - name: Committees
     link: /committees.html
+  - name: Call for Hacks
+    link: /cfh.html
 #  - name: <b>HACKS</b>
 #    link: /hacks.html
   - name: Program
@@ -48,7 +50,7 @@ navbar_list:
 #  - name: Judging
 #    link: /judging.html
   - name: Code of Conduct
-    link: conduct.html
+    link: /conduct.html
 
 asides:
     github: true

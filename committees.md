@@ -13,6 +13,7 @@ title: Committees
 - [Justin Presley](mailto:jcpresley42@tntech.edu) (Tennessee Tech)
 
 ## Judging Committee
+
 - TBD
 
 <!--
@@ -24,13 +25,13 @@ title: Committees
 -->
 
 <!--
-## Hacking Committee
-TODO
--->
-
-<!--
 - Lixia Zhang (University of California, Los Angeles)
 - Alex Afanasyev (Florida International University)
 - Jeff Burke (UCLA REMAP)
 - Davide Pesavento (NIST)
+-->
+
+<!--
+## Hacking Committee
+TODO
 -->
