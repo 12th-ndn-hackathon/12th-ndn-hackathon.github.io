@@ -8,269 +8,266 @@ title: Hacks Proposals
 * TOC
 {:toc}
 
-## 1. <del>Sync Protocol Specs</del>
+## 1. Passive Name Visualizer
 
-#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
-
-**Project Lead:**
-- Junxiao Shi
-
-<!-- Project Members: TBD -->
-**Prefered Team Size:**
-- 3
-
-**Targeted participant**
-- People new to NDN development
-
-**How does your proposal benefit NDN?**
-- Enable interoperable implementations of these protocols.
-
-**Briefly describe the tasks**
-Write protocol specifications of three sync protocols:
-- PSync FullSync
-- PSync PartialSync
-- syncps (Pollere Inc)
-
-**Any specific tools or language**
-- Markdown, ASCII art, Scalable Vector Graphics (SVG)
-
-**Expected outcomes**
-- Precise and unambiguous specs that match reference implementations.
-
-## 2. <del>RTCDataChannel Transport for Browsers</del>
-
-#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal1.pdf @path %})**
 
 **Project Lead:**
 - Junxiao Shi
 
-**Prefered Team Size:**
-- 3
-
-**Targeted participant**
-- People new to NDN development
-
-**How does your proposal benefit NDN?**
-- Better congestion control in web applications
-
-**Briefly describe the tasks**
-- RTCDataChannel transport in NDNts;
-- RTCDataChannel gateway in JavaScript, Go, or C++
-
-**Any specific tools or language**
-- NDNts; wrtc, Pion, or WebRTC Native
-
-**Expected outcomes**
-- No more TCP-over-TCP in web applications
-
-## 3. <del>NDN Video using NDNts</del>
-
-#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
-
-**Project Lead:**
-- Junxiao Shi
-
-**Prefered Team Size:**
+**Preferred Team Size:**
 - 2
 
-**Targeted participant**
+**Target Participants:**
 - People new to NDN development
 
-**How does your proposal benefit NDN?**
-- Better video streaming application
+**How will your proposal benefit NDN?**
+- Insights into network behavior
 
-**Briefly describe the tasks**
-- Add video encoding scripts
-- Embed YouTube fallback on the player page
-- Explore deploying with ndn-python-repo
+**Briefly describe the tasks:**
+Build upon the namevis project from ndnhack10, add two new features:
+- server-side name filtering and aggregation
+- time range selection (from pcap file)
 
-**Any specific tools or language**
-- NDNts
+**Any specific tools or languages?**
+- Go
+- Chart.js
 
-**Expected outcomes**
-- Better video streaming application
+**Expected Outcomes:**
+- New features implemented
 
-## 4. Passive Name Visualizer
+## 2. NDN Experiments on Fed4FIRE
 
-#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
-
-#### **[Presentation Slides]({% asset Final_Presentation__namevis_Junxiao_Shi.pptx @path %})**
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal2.pdf @path %})**
 
 **Project Lead:**
 - Junxiao Shi
 
-**Project Members** 
-- Sanjeev (FIU), Proyash (FIU), Zhe Qu
-
-**Prefered Team Size:**
+**Preferred Team Size:**
 - 3
 
-**Targeted participant**
+**Target Participants:**
 - People new to NDN development
 
-**How does your proposal benefit NDN?**
-- Easier traffic analysis and debugging
+**How will your proposal benefit NDN?**
+- Quick start for NDN experimentation on a testbed
 
-**Briefly describe the tasks**
-- Read packets from pcap.
-- Parse packets.
-- Visualize traffic: Traffic volume over time; Name hierarchy within selected time period.
+**Briefly describe the tasks:**
+Build upon existing app at https://rspec.ndn.today, add new features:
+- Import topology from Mini-NDN topology file.
+- Support NFD and NLSR.
+- Add telemetry collection for "Docker registry over NDN" proxy program.
 
-**Any specific tools or language**
-- Go language, GoPacket and NDNgo libraries; d3.js at frontend
+**Any specific tools or languages?**
+- Docker
+- PHP
+- Go
 
-**Expected outcomes**
-- Visualization application
+**Expected Outcomes:**
+- At least two new features implemented
 
-## 5.  <del>NDNph – NDN-Lite Bridge</del>
+## 3. NDN-FCH: The Big Rewrite
 
-#### **[Pitch Slides]({% asset ndnhack10_20201013_Proposal.pdf @path %})**
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal3.pdf @path %})**
 
 **Project Lead:**
 - Junxiao Shi
 
-**Prefered Team Size:**
-- 3
+**Preferred Team Size:**
+- 4
 
-**Targeted participant**
-- People new to NDN development
-
-**How does your proposal benefit NDN?**
-- Allow NDN-Lite application logic to run on platforms supported by NDNph especially, ESP32
-
-**Briefly describe the tasks**
-- Wrap NDNph as a ndn_face_intf_t on NDN-Lite side.
-- Wrap NDN-Lite as a transport on NDNph side.
-- Develop Mbed TLS security backend in NDN-Lite.
-
-**Any specific tools or language**
-- C and C++11; Linux; (no ESP32 necessary)
-
-**Expected outcomes**
-- Integrated library
-
-## 6. Deploy NDNCERT v0.3 on Testbed
-
-#### **[Pitch Slides]({% asset NDNCERT_deployment_proposal.pdf @path %})**
-
-#### **[Presentation Slides]({% asset Final_Presentation_Deploy_NDNCERT_on_testbed_Siqi_Liu.pptx @path %})**
-
-**Project Lead:**
-- Zhiyi Zhang
-
-**Project Members** 
-- Siqi Liu, Tianyuan Yu, Muhammad Nuzaihan
-
-**Prefered Team Size:**
-- 3
-
-**Targeted participant**
+**Target Participants:**
 - People with NDN code development experience
 
-**How does your proposal benefit NDN?**
-- Let testbed users use new certificate management system empowered by NDNCERT v0.3
+**How will your proposal benefit NDN?**
+- More robust service
 
-**Briefly describe the tasks**
-- Work out the instructions of deploying NDNCERT on testbed, including both root CA and site CAs. 
-- Exercise and improve the NDNCERT user interfaces.
+**Briefly describe the tasks:**
+Improve NDN-FCH service:
+
+- Allow more transport protocols, including IPv4 & IPv6, UDP, WebSockets, HTTP/3 over QUIC
+- Perform periodical reachability tests from around the world
+- Deploy a frontend on Cloudflare Workers, avoid single point of failure
+- Download GeoLite2 database with MaxMind license key
+- Collect RTT feedback from clients
+
+**Any specific tools or language**
+- Go
+- Python
+- JavaScript
+
+**Expected outcomes**
+- Complete features 1-4
+
+## 4. Bug Smash: Low Hanging Fruits
+
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal4.pdf @path %})**
+
+**Project Lead:**
+- Junxiao Shi
+
+**Preferred Team Size:**
+- 3
+
+**Target Participants:**
+- People with NDN code development experience
+
+**How will your proposal benefit NDN?**
+- Fix bugs in platform software
+
+**Briefly describe the tasks:**
+- NFD faces/destroy should not destroy reserved faces (#4115).
+- NFD crashes upon binding to a tentative IPv6 address (#5155).
+- NFD crashes upon receiving TCP RST (#5158).
+- PSync relies on Name URI syntax that is non-portable (#4838).
+- NLSR crashes if security is disabled (Slack#nlsr 2021-03-30).
 
 **Any specific tools or language**
 - C++
+- Boost C++ libraries
+- Gerrit
 
 **Expected outcomes**
-- Depoly NDNCERT at testbed
+- Bugfixes submitted to Gerrit, project members are expected to follow-up until they are merged
 
-## 7. YaNFD: Yet Another NDN Forwarder
+## 5. MetaSync Protocol
 
-#### **[Pitch Slides]({% asset YaNFD_Yet_Another_NDN_Forwarder_Eric_Newberry_proposal.pdf @path %})**
-
-#### **[Presentation Slides]({% asset Final_Presentation_YaNFD_Hackathon_Presentation_Eric_Newberry.pdf @path %})**
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal5.pdf @path %})**
 
 **Project Lead:**
-- Eric Newberry, Xinyu Ma
+- Justin C Presley
 
-**Prefered Team Size:**
+**Preferred Team Size:**
 - 3
 
-**Targeted participant**
-- People with NDN code development experience
+**Target Participants:**
+- People new to NDN development
 
-**How does your proposal benefit NDN?**
-- There are a number of existing forwarders for NDN. However, the most used and most generalized one of these, NFD, suffers from a number of performance and design issues. Meanwhile, other forwarders have been developed for more specific environments and scenarios, including NDN-DPDK for network backbones and ndn-lite for IoT environments. Therefore, we are in the progress of designing a new forwarder to replace NFD in general-purpose environments, such as desktops and edge servers, building upon the lessons learned while developing NFD and other forwarders.
+**How will your proposal benefit NDN?**
+- Expands on svs to allow more data producers and nullifying datasets
 
-**Briefly describe the tasks**
-- Since developing a new forwarder is a massive undertaking, the goal of our hackathon project will be to sketch out a high-level design using the lessons learned from previous NDN forwarders. This will involve examining the designs and implementations of these previous forwarders and extracting principles for an improved general-purpose forwarder for NDN.
+**Briefly describe the tasks:**
+- Implement said design, maybe include more improvements within the design
 
 **Any specific tools or language**
-- C++ (preferred), C (preferred), Go (preferred), system design, UML (preferred)
+- Python starting
+- C++ if we can
 
 **Expected outcomes**
-- We expect to develop a high-level system design for this new forwarder, including the components and the interfaces between these components. No coding should be required for this project.
+- Have an implemented improved sync protocol
 
+## 6. NDN Compute Simulator (ndnCSim)
 
-## 8. Combat Fake News with screenshot verification
-
-#### **[Pitch Slides]({% asset ndn_slapper_proposal.pdf @path %})**
-
-#### **[Presentation Slides]({% asset Final_Presentation_ndn_pres_Aditya_Advani.pptx @path %})**
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal6.pdf @path %})**
 
 **Project Lead:**
-- Aditya Advani
+- Muhammad Atif Ur Rehman
 
-**Prefered Team Size:**
+**Preferred Team Size:**
 - 4
 
-**Targeted participant**
+**Target Participants:**
 - People with NDN code development experience
 
-**How does your proposal benefit NDN?**
-- It's about image watermarking digital published content, backporting NDN principles to today's web in a way that's instantly super useful to society.
+**How will your proposal benefit NDN?**
+- In-network computation and specifically edge cloud computing has attracted extensive attention in the recent past from both academia and Industry. The common goal of these technologies is to enable the networking nodes to perform computations. Such networking nodes include 1) edge computing node, 2) the resource-full routers between an edge node and cloud node and 3) the cloud node itself. Various NDN-based in-network computation solutions have been proposed by the researchers, indicating the widespread interest of the NDN research community in edge cloud computing and in-network computations. However, unfortunately, the default implementation of the ndnSIM simulator does not provide the basic realization of in-network computations, leaving the NDN researchers with the only option of implementing the computation mechanism from scratch. To save the researchers time and to provide them the basic implementation of in-network computation, this hackathon project aims to add the computation functionality in ndnSIM. As a result, the NDN research community will be greatly benefited from the above-mentioned implementation, as by utilizing ndnCSIM the researcher can leverage the basic implementation of in-network computations in vanilla-ndnSIM.
 
-**Briefly describe the tasks**
-1. Sign published content using secure encryption method and key exchange
-2. Convert the digital signature of signed content to an image watermark
-3. Decrypt the watermark from a lossy image, identifying author and other relevant publication details
+**Briefly describe the tasks:**
+This hackathon project aims to complete the following task.
+- Enable the consumer node to set the computation-based naming scheme.
+- Enable the intermediate nodes to perform computations based on the received compute request in the Interest packet. To mimic the computation behavior, we will add different computation models. Moreover, we will also add the functionality to monitor the resource consumption of the intermediate nodes. For example, by default, the intermediate node resource utilization will be 0%, however, as soon the computation requests arrive, the resource utilization will be increased to let say 10% depending on nature (type) of the task. Thus, if 100% resource utilization is met, the intermediate node offloads the request to the next node. All of the above-mentioned implementations will be incorporated into the NFD codebase.
+- Develop NDN compute-based producer application in an apps folder. Similar to the intermediate node, the producer node application also monitors resource utilization. However, different from the intermediate node, the producer node computes the application adds the compute request in the waiting pool if the resources are fully occupied, and performs the computation after the resource availability.
 
 **Any specific tools or language**
-- Anything contemporary or dynamic is fine. Python or JavaScript ideal. 
+- C++
+- vanilla-ndnSIM
 
 **Expected outcomes**
-- Basically I would like to create a simple way to image watermark mixed images and text content like tweets so that I can make a PoC showing how all social media and all apps including most websites should incorporate this technology immediately. Backporting NDN principles to today's web.
+- The implementation for in-network computations in ndnSIM simulator.
 
-I came up with the idea on Aaron Swartz Day in 2018 while watching Chelsea Manning speak in person. Only discovered NDN last night so very excited at the prospect of having real CS grad students help me! Been searching for this kind of support for a year now, see:
-https://medium.com/@aditya_advani/how-to-defeat-fake-news-with-a-screenshot-verification-service-svs-e80867dfbc58
+## 7. NDN Play
 
-## 9. NFD Strategy Plugin System
-
-#### **[Pitch Slides]({% asset NFD_strategy_Plugin_proposal.pdf @path %})**
-
-#### **[Presentation Slides]({% asset Final_Presentation_Strategy_Plugin_Ashlesh_Gawande.pdf @path %})**
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal7.pdf @path %})**
 
 **Project Lead:**
-- Ashlesh Gawande
+- Varun Patil
 
-**Project Members**
-- Saurab Dulal
-- Muktadir Chowdhury 
+**Preferred Team Size:**
+- 1
 
-**Prefered Team Size:**
-- 2
-
-**Targeted participant**
+**Target Participants:**
 - People with NDN code development experience
 
-**How does your proposal benefit NDN?**
-- Creating a strategy plugin system (like Linux Kernel Modules or Video Game Mods), would let NFD load a strategy at run time from a shared object le.
-- Running experiments on testbed with new strategies will be easier and bug x deployment will be faster."
+**How will your proposal benefit NDN?**
+- A web interface to create and play with NDN topologies, similar to miniNDN, but running fully in the browser without any backend. This will be useful for beginners to understand NDN.
 
-**Briefly describe the tasks**
-- Compile NFD (or strategies?) as a library
-- Modify NFD to look for shared objects and load/unload the strategy
-from them
-- Add or modify NFD tools as required to load/unload strategies
+**Briefly describe the tasks:**
+- Create the web interface
+- Simulate a rudimentary JavaScript NDN forwarder or port an existing one to JS
 
 **Any specific tools or language**
-- C, C++14, NFD
+- JavaScript
+- NDNts
 
 **Expected outcomes**
-- Load a new strategy in NFD at run time.
+- Full web interface that can be used by NDN beginners to simulate networks.
+
+## 8. Mini-NDN Improvements
+
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal8.pdf @path %})**
+
+**Project Lead:**
+- Saurab Dulal
+
+**Preferred Team Size:**
+- 3
+
+**Target Participants:**
+- People new to NDN development
+
+**How will your proposal benefit NDN?**
+- Mini-NDN: an easy to install and use NDN emulator environment
+
+**Briefly describe the tasks:**
+- Helper for ndn-trac-generator and a basic consumer producer
+- Mini-NDN GUI topology editor and documentations
+- Improve Mini-NDN installation script and Vagrantle, install ndn packages from PPA and investigate python compatibility issues
+- Improvements in user guide with a very simple topology and adding demo video
+
+**Any specific tools or language**
+- Mini-NDN
+- Python
+- Shell
+- Vagrant
+- C++
+
+**Expected outcomes**
+- Improved Mini-NDN, easy to install and play
+
+## 9. CertCoalesce: NDN Certificate Pools
+
+#### **[Pitch Slides]({% asset ndn-hackathon2105-proposal9.pdf @path %})**
+
+**Project Lead:**
+- Proyash Podder
+
+**Preferred Team Size:**
+- 3
+
+**Target Participants:**
+- People new to NDN development
+
+**How will your proposal benefit NDN?**
+- Efficiently manage virtually unlimited pools of public/private keys and certificates to save storage on constrained devices.
+
+**Briefly describe the tasks:**
+- Based on initial skeleton, sync up to the proposed design
+- Create a python package
+- Create a simple demo and write (interactive) documentation
+
+**Any specific tools or language**
+- Python
+- Basic math skills
+
+**Expected outcomes**
+- A working Python package, simple demo, and initial skeleton of documentation
