@@ -216,8 +216,9 @@ This hackathon project aims to complete the following task.
 
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal8.pdf @path %})**
 
-**Project Lead:**
+**Project Leads:**
 - Saurab Dulal
+- Alexander Lane
 
 **Preferred Team Size:**
 - 3
@@ -248,7 +249,8 @@ This hackathon project aims to complete the following task.
 
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal9.pdf @path %})**
 
-**Project Lead:**
+**Project Leads:**
+- Alexander Afanasyev
 - Proyash Podder
 
 **Preferred Team Size:**
