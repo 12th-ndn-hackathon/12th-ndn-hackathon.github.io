@@ -14,10 +14,10 @@ We particularly encourage projects that:
  - Create or improve documentation and how-to guides.
 
 
-## Call For Hacks
+<!--## Call For Hacks
 
 - Proposals should be submitted via [web form](https://docs.google.com/forms/d/e/1FAIpQLSfYe_kGUiosu01iMtbXPkMVgTYbMCXZgS-ZUaFx4IlKnun9-A/viewform).
-- Click [here](http://11th-ndn-hackathon.named-data.net/cfh.html) for our "Call for Hacks".
+- Click [here](http://11th-ndn-hackathon.named-data.net/cfh.html) for our "Call for Hacks".-->
 
 ## News
 - May 20: Zoom link for the hackathon is up
