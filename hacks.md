@@ -8,7 +8,7 @@ title: Hacks Proposals
 * TOC
 {:toc}
 
-## 1. Passive Name Visualizer
+## <del>1. Passive Name Visualizer</del>
 
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal1.pdf @path %})**
 
@@ -36,7 +36,7 @@ Build upon the namevis project from ndnhack10, add two new features:
 **Expected Outcomes:**
 - New features implemented
 
-## 2. NDN Experiments on Fed4FIRE
+## <del>2. NDN Experiments on Fed4FIRE</del>
 
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal2.pdf @path %})**
 
@@ -73,6 +73,12 @@ Build upon existing app at https://rspec.ndn.today, add new features:
 **Project Lead:**
 - Junxiao Shi
 
+**Project Members:**
+- Eric Newberry
+- Junxiao Shi
+- Justin Presley
+- Zhiyi Zhang
+
 **Preferred Team Size:**
 - 4
 
@@ -99,7 +105,7 @@ Improve NDN-FCH service:
 **Expected outcomes**
 - Complete features 1-4
 
-## 4. Bug Smash: Low Hanging Fruits
+## <del>4. Bug Smash: Low Hanging Fruits</del>
 
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal4.pdf @path %})**
 
@@ -130,7 +136,7 @@ Improve NDN-FCH service:
 **Expected outcomes**
 - Bugfixes submitted to Gerrit, project members are expected to follow-up until they are merged
 
-## 5. MetaSync Protocol
+## <del>5. MetaSync Protocol</del>
 
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal5.pdf @path %})**
 
@@ -163,6 +169,11 @@ Improve NDN-FCH service:
 **Project Lead:**
 - Muhammad Atif Ur Rehman
 
+**Project Members:**
+- Muhammad Atif Ur Rehman
+- Muhammad Salahuddin
+- Sana Fayyaz
+
 **Preferred Team Size:**
 - 4
 
@@ -192,6 +203,10 @@ This hackathon project aims to complete the following task.
 **Project Lead:**
 - Varun Patil
 
+**Project Members:**
+- Tianyuan Yu
+- Varun Patil
+
 **Preferred Team Size:**
 - 1
 
@@ -219,6 +234,12 @@ This hackathon project aims to complete the following task.
 **Project Leads:**
 - Saurab Dulal
 - Alexander Lane
+
+**Project Members:**
+- Adam Thieme
+- Ashiq Rahman
+- Justin Presley
+- Saurab Dulal
 
 **Preferred Team Size:**
 - 3
@@ -252,6 +273,11 @@ This hackathon project aims to complete the following task.
 **Project Leads:**
 - Alexander Afanasyev
 - Proyash Podder
+
+**Project Members:**
+- Alexander Afanasyev
+- Proyash Podder
+- Xinyu Ma
 
 **Preferred Team Size:**
 - 3
