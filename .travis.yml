@@ -6,9 +6,9 @@ rvm:
 branches:
   only:
   - source
-#env:
-#  global:
-#  - JEKYLL_ENV=production
+env:
+  global:
+  - JEKYLL_ENV=production
 script:
   - gem install bundler
   - bundle exec jekyll build
