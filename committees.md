@@ -14,15 +14,10 @@ title: Committees
 
 ## Judging Committee
 
-- TBD
-
-<!--
-- Alex Afanasyev (Florida International University)
+- Beichuan Zhang (University of Arizona)
 - Lan Wang (University of Memphis)
 - Lixia Zhang (UCLA)
-- Beichuan Zhang (University of Arizona)
-- Davide Pesavento (NIST)
--->
+- Susmit Shannigrahi (Tennessee Tech)
 
 <!--
 - Lixia Zhang (University of California, Los Angeles)
