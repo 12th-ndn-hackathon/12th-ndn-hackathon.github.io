@@ -76,7 +76,7 @@ Build upon existing app at https://rspec.ndn.today, add new features:
 **Project Members:**
 - Eric Newberry
 - Junxiao Shi
-- Justin Presley
+- Muhammad Nuzaihan
 - Zhiyi Zhang
 
 **Preferred Team Size:**
