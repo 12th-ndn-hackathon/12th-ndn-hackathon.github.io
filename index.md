@@ -23,7 +23,7 @@ We particularly encourage projects that:
 
 - **Most External Impact**
 
-  **NDN Compute Simulator (ndnCSim)
+  **NDN Compute Simulator (ndnCSim)**
 
   Muhammad Atif Ur Rehman, Muhammad Imran, Muhammad Salahuddin, Sana Fayyaz
 
