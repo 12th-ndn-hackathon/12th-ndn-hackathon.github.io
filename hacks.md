@@ -68,6 +68,7 @@ Build upon existing app at https://rspec.ndn.today, add new features:
 
 ## 3. NDN-FCH: The Big Rewrite
 
+#### **[Final Slides]({% asset final-3-ndn-fch.pdf @path %})**
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal3.pdf @path %})**
 
 **Project Lead:**
@@ -164,6 +165,7 @@ Improve NDN-FCH service:
 
 ## 6. NDN Compute Simulator (ndnCSim)
 
+#### **[Final Slides]({% asset final-6-ndncsim.pdf @path %})**
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal6.pdf @path %})**
 
 **Project Lead:**
@@ -198,6 +200,7 @@ This hackathon project aims to complete the following task.
 
 ## 7. NDN Play
 
+#### **[Final Slides]({% asset final-7-ndn-play.pdf @path %})**
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal7.pdf @path %})**
 
 **Project Lead:**
@@ -229,6 +232,7 @@ This hackathon project aims to complete the following task.
 
 ## 8. Mini-NDN Improvements
 
+#### **[Final Slides]({% asset final-8-mini-ndn.pdf @path %})**
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal8.pdf @path %})**
 
 **Project Leads:**
@@ -268,6 +272,7 @@ This hackathon project aims to complete the following task.
 
 ## 9. CertCoalesce: NDN Certificate Pools
 
+#### **[Final Slides]({% asset final-9-cert-coalesce.pdf @path %})**
 #### **[Pitch Slides]({% asset ndn-hackathon2105-proposal9.pdf @path %})**
 
 **Project Leads:**
