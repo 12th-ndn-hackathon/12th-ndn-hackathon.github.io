@@ -20,6 +20,7 @@ We particularly encourage projects that:
 - Click [here](http://11th-ndn-hackathon.named-data.net/cfh.html) for our "Call for Hacks".-->
 
 ## News
+- May 23: Instructions for judging and project submission are up
 - May 20: Zoom link for the hackathon is up
 - May 7: Call for Hacks and attendee registration links are online
 - April 30: Hackathon dates and tentative schedule adjusted

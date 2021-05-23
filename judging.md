@@ -5,43 +5,41 @@ title: Judging
 
 The concluding hack slides will be made available to judges before the final presentation starts.
 
-The final presentations are 10 minutes (hard limit) including demo and/or screenshot. Also, aditional few minutes will be provided for Q&A. 
+The final presentations are 5 minutes (hard limit) including demo and/or screenshots. Additionally, a few minutes will be provided for Q&A. 
 
-The slides should cover the following aspects: (Judging criterial)
+The slides should cover the following aspects: (Judging criteria)
 
 ## (1) Impact (10 points)
 
 - How big of a problem are you solving? 
 
-- Potential benefit and impact.
+- What is the potential benefit and impact of your solution?
 
-- Can this problem be solved before the project?
+- Could this problem be solved before your project came along?
 
 ## (2) Solution (20 points)
 
-- Creativity of the technical approach 
-(doesn't have to be original, but is there a fresh take).
+- Creativity of the technical approach
+(doesn't have to be original, but it should at least be a "fresh take").
 
-- How well does the solution address the problem 
-(feasibility, scalability, are there simple alternatives)
+- How well does the solution address the problem?
+(feasibility, scalability, are there simple alternatives?)
 
 ## (3) Execution (20 points)
 
-- What was actually accomplished, compare to what 
-was proposed, lessons learned?
+- What was actually accomplished, compare to what was proposed? Lessons learned
 
-- How well the hack group was organize?
+- How well the group was organized?
 
-- Are there surprises along the way and how well the 
-team coped with that?
+- Were there any surprises along the way? How well the the team cope with that?
 
 ## (4) Presentation (10 points)
 
-- How well was presented?
+- How well was it presented?
 
-- When project could have a demo, was it presented? 
+- When a project could have a demo, was it presented? 
 
-- Did the demo achieved the goal?
+- Did the demo achieve the goals of the project?
 
 <!--
 ## (1) NEED
