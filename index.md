@@ -19,6 +19,48 @@ We particularly encourage projects that:
 - Proposals should be submitted via [web form](https://docs.google.com/forms/d/e/1FAIpQLSfYe_kGUiosu01iMtbXPkMVgTYbMCXZgS-ZUaFx4IlKnun9-A/viewform).
 - Click [here](http://11th-ndn-hackathon.named-data.net/cfh.html) for our "Call for Hacks".-->
 
+## Hackathon Awards
+
+- **Most External Impact**
+
+  **NDN Compute Simulator (ndnCSim)
+
+  Muhammad Atif Ur Rehman, Muhammad Imran, Muhammad Salahuddin, Sana Fayyaz
+
+  <br />
+
+- **Most Promising Hack**
+
+  **NDN Play**
+
+  Varun Patil, Tianyuan Yu
+
+  <br />
+
+- **Most Practical**
+
+  **NDN-FCH: The Big Rewrite**
+
+  Junxiao Shi, Eric Newberry, Muhammad Nuzaihan, Zhiyi Zhang
+
+  <br />
+
+- **Most Internal Impact**
+
+  **CertCoalesce: NDN Certificate Pools**
+
+  Alexander Afanasyev, Proyash Podder, Xinyu Ma
+
+  <br />
+
+- **Most Impact on User Community**
+
+  **Mini-NDN Improvements**
+
+  Saurab Dulal, Alexander Lane, Adam Thieme, Ashiq Rahman, Justin Presley
+
+  <br />
+
 ## News
 - May 23: Instructions for judging and project submission are up
 - May 20: Zoom link for the hackathon is up
