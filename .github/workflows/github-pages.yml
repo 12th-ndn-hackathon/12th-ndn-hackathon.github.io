@@ -12,11 +12,13 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
 
-      - name: Build
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
           bundler-cache: true
+
+      - name: Build
         run:
           gem install bundler
           bundle exec jekyll build
