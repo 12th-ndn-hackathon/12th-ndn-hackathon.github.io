@@ -18,8 +18,8 @@ jobs:
           ruby-version: 2.7
           bundler-cache: true
         run:
-        gem install bundler
-        bundle exec jekyll build
+          gem install bundler
+          bundle exec jekyll build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
