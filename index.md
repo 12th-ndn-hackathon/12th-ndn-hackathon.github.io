@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Welcome to the 11th NDN Hackathon
+title: Welcome to the 12th NDN Hackathon
 ---
 
-We are hosting a three-day virtual NDN Hackathon (May 21-23, 2021). The event is open and FREE to participate in and winners will receive exciting FREE prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
+We are hosting a three-day virtual NDN Hackathon (Oct 22-24, 2021). The event is open and FREE to participate in and winners will receive exciting FREE prizes! This event targets all levels of participants and, particularly for beginners, will be an excellent opportunity to get started with NDN.
 
 <!--#### **Attendees: Please join via [Zoom](https://arizona.zoom.us/j/86129306505?pwd=VTZDMEhGQnU0TDZZZDR3K1hZRmpmZz09)**-->
 
@@ -17,56 +17,22 @@ We particularly encourage projects that:
 <!--## Call For Hacks
 
 - Proposals should be submitted via [web form](https://docs.google.com/forms/d/e/1FAIpQLSfYe_kGUiosu01iMtbXPkMVgTYbMCXZgS-ZUaFx4IlKnun9-A/viewform).
-- Click [here](http://11th-ndn-hackathon.named-data.net/cfh.html) for our "Call for Hacks".-->
+- Click [here](http://12th-ndn-hackathon.named-data.net/cfh.html) for our "Call for Hacks".-->
 
+<!--
 ## Hackathon Awards
 
-- **Most External Impact**
+- **Award**
 
-  **NDN Compute Simulator (ndnCSim)**
+  **Project**
 
-  Muhammad Atif Ur Rehman, Muhammad Imran, Muhammad Salahuddin, Sana Fayyaz
-
-  <br />
-
-- **Most Promising Hack**
-
-  **NDN Play**
-
-  Varun Patil, Tianyuan Yu
+  Authors
 
   <br />
-
-- **Most Practical**
-
-  **NDN-FCH: The Big Rewrite**
-
-  Junxiao Shi, Eric Newberry, Muhammad Nuzaihan, Zhiyi Zhang
-
-  <br />
-
-- **Most Internal Impact**
-
-  **CertCoalesce: NDN Certificate Pools**
-
-  Alexander Afanasyev, Proyash Podder, Xinyu Ma
-
-  <br />
-
-- **Most Impact on User Community**
-
-  **Mini-NDN Improvements**
-
-  Saurab Dulal, Alexander Lane, Adam Thieme, Ashiq Rahman, Justin Presley
-
-  <br />
+-->
 
 ## News
-- May 23: Instructions for judging and project submission are up
-- May 20: Zoom link for the hackathon is up
-- May 7: Call for Hacks and attendee registration links are online
-- April 30: Hackathon dates and tentative schedule adjusted
-- April 28: The website is up!
+- Sep 30: The website is up!
 
 ## Sponsors
 

@@ -6,20 +6,20 @@ title: Program
 **Location:**
 Earth, Solar System, Milky Way, Universe
 
-## Friday, May 21, 2021
+## Friday, Oct 22, 2021
 
 {:.table-condensed .table-striped .table-hover .program}
 
 9:00 am - 11:00 am PDT | **Opening remarks, project pitches, team formation** <!--[Zoom](https://arizona.zoom.us/j/86129306505?pwd=VTZDMEhGQnU0TDZZZDR3K1hZRmpmZz09)--> <!--, Project Selection-->
 After 11:00 am PDT | **Hacking**
 
-## Saturday, May 22, 2021
+## Saturday, Oct 23, 2021
 
 {:.table-condensed .table-striped .table-hover .program}
 
 All Day | **Hacking**
 
-## Sunday, May 23, 2021
+## Sunday, Oct 24, 2021
 
 {:.table-condensed .table-striped .table-hover .program}
 

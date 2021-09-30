@@ -28,7 +28,8 @@ We will also create a Slack channel for communication during the hackathon.
 
 ## Submission instructions
 
-Proposals should be submitted via [web form](https://docs.google.com/forms/d/e/1FAIpQLSfYe_kGUiosu01iMtbXPkMVgTYbMCXZgS-ZUaFx4IlKnun9-A/viewform).
+Proposals should be submitted via the web form that will be released soon.
+<!--[web form](https://docs.google.com/forms/d/e/1FAIpQLSfYe_kGUiosu01iMtbXPkMVgTYbMCXZgS-ZUaFx4IlKnun9-A/viewform). -->
 
 The submissions should include:
 

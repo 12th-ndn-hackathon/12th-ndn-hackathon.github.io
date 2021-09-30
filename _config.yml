@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
 
-url: http://11th-ndn-hackathon.named-data.net
+url: http://12th-ndn-hackathon.named-data.net
 baseurl:
 
 plugins:
@@ -23,11 +23,11 @@ deadlines:
 permalink: /:page.html
 
 # Configuration for site
-title: 11th Named Data Networking (NDN) Hackathon (Virtual)
-short_title: 11th NDN Hackathon
-description: May 21-23, 2021
-author: 11th NDN Hackathon Organizing Committee
-#email: 11th-ndn-hackathon@named-data.net
+title: 12th Named Data Networking (NDN) Hackathon (Virtual)
+short_title: 12th NDN Hackathon
+description: Oct 22-24, 2021
+author: 12th NDN Hackathon Organizing Committee
+#email: 12th-ndn-hackathon@named-data.net
 
 # Configuration for blog
 lang: en
@@ -41,14 +41,12 @@ navbar_list:
     link: /
   - name: Committees
     link: /committees.html
-  - name: Call for Hacks
-    link: /cfh.html
-  - name: <b>HACKS</b>
-    link: /hacks.html
-  - name: Program
-    link: /program.html
-  - name: Judging
-    link: /judging.html
+#  - name: Call for Hacks
+#    link: /cfh.html
+#  - name: Program
+#    link: /program.html
+#  - name: Judging
+#    link: /judging.html
   - name: Code of Conduct
     link: /conduct.html
 
@@ -69,7 +67,7 @@ twitter:
     widget_id: 698294519054278656
 
 github:
-   username: 11th-ndn-hackathon
+   username: 12th-ndn-hackathon
    count: 10000
 
 assets:
