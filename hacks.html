@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hacks Proposals - 12th Named Data Networking (NDN) Hackathon (Virtual)</title>
+    <meta name="description" content="Oct 22-24, 2021">
+    <meta name="author" content="12th NDN Hackathon Organizing Committee">
+    <link rel="canonical" href="http://12th-ndn-hackathon.named-data.net/hacks">
+
+    <link rel="stylesheet" type="text/css" href="/assets/site-c3c0b760b35f1d88faacaed27d85351cd33cf1fd88a5019ec0a70f46743a23f4.css">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/assets/ico/favicon-38a0d815005ff0b3d71bae96e5736aaf474efe05b3288d12f6465c38b43aa315.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed-97e5eefed33136b6b7e63bdbdf4957b88045bd96bb9b2cc5a0a8525729ca221f.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed-8603082234efbd8fca0f58505f699a5854a13739f12b87b69143b06a4cccc0c7.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed-a22882427ca6e03081271325bf1294e8cd2ee4c447f635000e4f4a0f694bfe55.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed-933602014f87c50876665303015b7fed8f9dbe32ab7b7b62ebe888e5497dfd43.png">
+
+    
+  </head>
+  <body>
+    <header id="header">
+      <hgroup>
+  <h1 id="site-title">
+    <a class="full" href="/">12th Named Data Networking (NDN) Hackathon (Virtual)</a>
+  </h1>
+
+  <h2 id="site-description">Oct 22-24, 2021</h2>
+
+</hgroup>
+
+    </header>
+
+    <nav id="navbar">
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+
+  
+  
+          <li class="">
+            <a href="/">Home</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/committees.html">Committees</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/cfh.html">Call for Hacks</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/hacks.html">HACKS</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/program.html">Program</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/conduct.html">Code of Conduct</a>
+          </li>
+  
+
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search" action="http://google.com/search" method="get">
+        <div class="form-group">
+
+          <input type="hidden" name="q" value="site:http://12th-ndn-hackathon.named-data.net">
+
+          <input type="text" name="q" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3 pull-right">
+          <section id="sidebar-deadlines" class="well">
+ <h3><i class="fa fa-calendar"></i>&nbsp;Important Dates</h3>
+<ul id="deadlines" class="nav nav-list">
+
+  <li><p>Submission deadline:
+  
+  <br/><b style="margin-left: 20px">Monday, Oct 18, 2021</b>
+  
+  </p></li>
+
+  <li><p>Acceptance notification:
+  
+  <br/><b style="margin-left: 20px">Wednesday, Oct 20, 2021</b>
+  
+  </p></li>
+
+</ul>
+</section>
+
+        </aside><!--/span-->
+
+        <div id="main" class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+          <article>
+ <header>
+   <h1>Hacks Proposals</h1>
+ </header>
+
+<section>
+  
+<ul id="markdown-toc">
+  <li><a href="#1-implementing-mnemosyne-an-immutable-logger" id="markdown-toc-1-implementing-mnemosyne-an-immutable-logger">1. Implementing Mnemosyne, An Immutable Logger</a></li>
+  <li><a href="#2-yanfd-ui" id="markdown-toc-2-yanfd-ui">2. YaNFD UI</a></li>
+  <li><a href="#3-passive-name-visualizer" id="markdown-toc-3-passive-name-visualizer">3. Passive Name Visualizer</a></li>
+  <li><a href="#4-ndn-fch-feedback-loop" id="markdown-toc-4-ndn-fch-feedback-loop">4. NDN-FCH Feedback Loop</a></li>
+  <li><a href="#5-bug-smash--low-hanging-fruits" id="markdown-toc-5-bug-smash--low-hanging-fruits">5. Bug Smash – Low Hanging Fruits</a></li>
+  <li><a href="#6-pit-token-in-ndn-cxx-and-python-ndn" id="markdown-toc-6-pit-token-in-ndn-cxx-and-python-ndn">6. PIT Token in ndn-cxx and python-ndn</a></li>
+  <li><a href="#7-mini-ndn-improvements" id="markdown-toc-7-mini-ndn-improvements">7. Mini-NDN improvements</a></li>
+</ul>
+
+<h2 id="1-implementing-mnemosyne-an-immutable-logger">1. Implementing Mnemosyne, An Immutable Logger</h2>
+
+<h4 id="pitch-slides"><strong><a href="/assets/ndn-hackathon2110-proposal1-3875b9103c0f7448e1cd9846870724dada9dea9df4d5521ebc259433fcc06720.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Siqi Liu</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>4</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Mnemosyne provides a logging solution for NDN based distributed applications.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>Implementing a prototype for Mnemosyne base on the design in the ICN poster.</li>
+</ul>
+
+<p><strong>Any specific tools or languages?</strong></p>
+<ul>
+  <li>NDN-CXX, SVS, LevelDB</li>
+</ul>
+
+<p><strong>Expected Outcomes:</strong></p>
+<ul>
+  <li>The prototype codebase are expected to be ready for demo and evaluation. It should be ready to be tested on Hydra, the NDN distributed Repo.</li>
+</ul>
+
+<h2 id="2-yanfd-ui">2. YaNFD UI</h2>
+
+<h4 id="pitch-slides-1"><strong><a href="/assets/ndn-hackathon2110-proposal2-8d942b632183db08f783ed46a9978a76284618d835377b2677f971ffecdd6bdc.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Xinyu Ma</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>3</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>A UI can make YaNFD easier to use, especially to new developers who are using Windows or not familiar with command-line tools. Hopefully, a user-friendly UI can attract more people to try out NDN.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>Write a command-line UI for YaNFD that can manage faces and routes.</li>
+</ul>
+
+<p><strong>Any specific tools or languages?</strong></p>
+<ul>
+  <li>Go</li>
+</ul>
+
+<p><strong>Expected Outcomes:</strong></p>
+<ul>
+  <li>A new executable yanfdui which runs as YaNFD with the newly developed UI, where users can view/add/delete faces and routes through UI directly.</li>
+</ul>
+
+<h2 id="3-passive-name-visualizer">3. Passive Name Visualizer</h2>
+
+<h4 id="pitch-slides-2"><strong><a href="/assets/ndn-hackathon2110-proposal3-c84b320a0c73bea1e9df4eef0479d29ba4eb6e1b96690ab8b4e5bd889b363ead.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>2</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>insights into network behavior</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+“Build upon 10th NDN hackathon project:</p>
+<ul>
+  <li>upgrade to Chart.js version 3</li>
+  <li>server-side name filtering and aggregation</li>
+  <li>time range selection (from pcap file)”</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Go, NDNgo, JavaScript, RE:DOM, Chart.js</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>demo of the improved system</li>
+</ul>
+
+<h2 id="4-ndn-fch-feedback-loop">4. NDN-FCH Feedback Loop</h2>
+
+<h4 id="pitch-slides-3"><strong><a href="/assets/ndn-hackathon2110-proposal4-c84b320a0c73bea1e9df4eef0479d29ba4eb6e1b96690ab8b4e5bd889b363ead.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>2</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>better connectivity from end hosts</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+Build upon 11th NDN hackathon project:</p>
+<ul>
+  <li>Design a protocol that allows end hosts to submit reachability &amp; RTT feedback to the beacon server.</li>
+  <li>Develop the beacon server that saves feedback to database.</li>
+  <li>Develop client app that submits the feedback.</li>
+</ul>
+
+<p>Note: influencing NDN-FCH response with feedback data would be future work.</p>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>beacon server: Go, MySQL; client app: Go or TypeScript or C++</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Present protocol design; demo feedback generation and collection; present ideas of how to improve NDN-FCH response with feedback</li>
+</ul>
+
+<h2 id="5-bug-smash--low-hanging-fruits">5. Bug Smash – Low Hanging Fruits</h2>
+
+<h4 id="pitch-slides-4"><strong><a href="/assets/ndn-hackathon2110-proposal5-c84b320a0c73bea1e9df4eef0479d29ba4eb6e1b96690ab8b4e5bd889b363ead.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>4</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>improve platform software stability</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+Fix the following bugs in platform software:</p>
+<ul>
+  <li>ndn-cxx misinterprets large dates in ValidityPeriod (#5176).</li>
+  <li>NFD faces/destroy should not destroy reserved faces (#4115).</li>
+  <li>NFD crashes upon receiving TCP RST (#5158).</li>
+  <li>PSync relies on Name URI syntax that is non-portable (#4838).</li>
+  <li>NLSR crashes if security is disabled (Slack#nlsr 2021-03-30).</li>
+  <li>NLSR hyperbolic routes have smaller cost than local apps (#5152).</li>
+  <li>ppa-packaging unnecessarily uses sudo.</li>
+  <li>ppa-packaging uses obsolete ndnsec-* wrappers.</li>
+  <li>ppa-packaging unnecessarily depends on Python2 and libboost-all-dev.</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++, Boost C++ libraries, Debian packaging</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Patches submitted to Gerrit for a subset of bugs, depending on actual team size and developer expertise.</li>
+</ul>
+
+<h2 id="6-pit-token-in-ndn-cxx-and-python-ndn">6. PIT Token in ndn-cxx and python-ndn</h2>
+
+<h4 id="pitch-slides-5"><strong><a href="/assets/ndn-hackathon2110-proposal6-c84b320a0c73bea1e9df4eef0479d29ba4eb6e1b96690ab8b4e5bd889b363ead.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Junxiao Shi</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>2</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>unlock better performance</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong>
+Accept and return PIT token on producer side of ndn-cxx and python-ndn.
+Test with YaNFD (via TCP transport with non-local scope).</p>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++, ndn-cxx, Python 3, python-ndn</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Get it implemented in at least one library, depending on developer expertise</li>
+</ul>
+
+<h2 id="7-mini-ndn-improvements">7. Mini-NDN improvements</h2>
+
+<h4 id="pitch-slides-6"><strong><a href="/assets/ndn-hackathon2110-proposal7-04a25416d0833db6cf7c1c2e9b465e4e9f36061b697deb0cb2ebc80990876d37.pdf">Pitch Slides</a></strong></h4>
+
+<p><strong>Project Lead:</strong></p>
+<ul>
+  <li>Saurab Dulal</li>
+</ul>
+
+<p><strong>Preferred Team Size:</strong></p>
+<ul>
+  <li>3</li>
+</ul>
+
+<p><strong>Target Participants:</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How will your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Mini-NDN can be used by staters to play with NDN, where as intermediate/experts on NDN can use it to perform real emulated experiments.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks:</strong></p>
+<ul>
+  <li>Helper for ndn-traffic-generator and a basic consumer producer</li>
+  <li>Mini-NDN GUI topology editor and documentations</li>
+  <li>Improve Mini-NDN installation script and Vagrantfile, install ndnpackages from PPA and investigate python compatibility issues</li>
+  <li>Improvements in user guide with a very simple topology and addingdemo video</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Mini-NDN, Python, Shell, Vagrant, C+</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Improved Mini-NDN, easy to install and play</li>
+</ul>
+
+</section>
+
+<footer>
+</footer>
+</article>
+
+        </div>
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3">
+          <section id="sidebar-github" class="well hidden-print">
+  <h3><a style="color:black" href="https://github.com/12th-ndn-hackathon" target="_blank"><i class="fa fa-github"></i></a>&nbsp;Hackathon Repositories</h3>
+  <ul id="github-repo" class="nav nav-list"><li><p>Reading github repositories...</p></li></ul>
+</section>
+
+<section id="sidebar-twitter" class="well hidden-print">
+ <h3><i class="fa fa-twitter"></i>&nbsp;Tweets</h3>
+ <a href="https://twitter.com/NamedData"
+   class="twitter-follow-button"
+   data-dnt="true"
+   data-lang="en"
+   data-show-count="false"
+   data-show-screen-name="true"
+ >Follow @NamedData</a>
+ <a class="twitter-timeline" href="https://twitter.com/NamedData"
+   data-widget-id="698294519054278656" data-chrome="transparent noheader">Tweets by @NamedData</a>
+</section>
+
+
+        </aside><!--/span-->
+
+      </div><!--/row-->
+    </div> <!-- /container -->
+
+    <hr>
+
+    <footer id="footer">
+      <p class="pull-right hidden-print"><a href="#">Back to top</a></p>
+<p>Copyright &copy; 2021, 12th NDN Hackathon Organizing Committee</p>
+
+    </footer>
+
+    <script type="text/javascript" src="/assets/site-7692f30aa9c52a3b731e53c02df6c58e0fb74bdcbce5cbcf33412a3e28d435cc.js"></script>
+  </body>
+</html>
